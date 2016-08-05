@@ -1,0 +1,27 @@
+:host * {
+  font-weight: 400;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+:host section {
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 200px;
+  padding: 20px;
+}
+
+:host md-card {
+  text-align: center;
+}
+
+:host button {
+  width: 350px;
+  margin: 10px 0;
+}
+
+:host button img {
+  vertical-align: middle;
+  margin: 10px;
+}

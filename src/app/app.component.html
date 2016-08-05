@@ -1,3 +1,44 @@
-<h1>
-  {{title}}
-</h1>
+<md-toolbar [color]="authColor">
+  <span>Angular2 Auth with AngularFire2</span>
+</md-toolbar>
+
+<section [ngSwitch]="isAuth">
+
+  <h3 [hidden]="isAuth" >Choose your Federated Identity Provider</h3>
+
+  <button md-raised-button *ngSwitchCase="false" (click)="login('google')">
+    <img width="30" src="google-logo.png" />Use My Google Account
+  </button>
+
+  <button md-raised-button *ngSwitchCase="false" (click)="login('facebook')">
+    <img width="30" src="facebook-logo.png" />Use My Facebook Account
+  </button>
+
+  <button md-raised-button *ngSwitchCase="false" (click)="login('twitter')">
+    <img width="30" src="twitter-logo.png" />Use My Twitter Account
+  </button>
+
+  <button md-raised-button *ngSwitchCase="false" (click)="login('github')">
+    <img width="30" src="github-logo.png" />Use My Github Account
+  </button>
+
+
+  <md-card *ngSwitchCase="true">
+     <md-card-header>
+        <img md-card-avatar [src]="user.profile || 'avatar.png'">
+        <md-card-title>Wassim Chegham</md-card-title>
+        <md-card-subtitle>Developer Advocate</md-card-subtitle>
+     </md-card-header>
+     <img md-card-image [src]="user.img || 'md-banner.jpg'">
+     <md-card-content>
+        <p>Here is some more content</p>
+     </md-card-content>
+     <md-card-action>
+       <button md-raised-button (click)="logout()">
+         Logout
+       </button>
+     </md-card-action>
+  </md-card>
+
+
+</section>

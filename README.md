@@ -1,4 +1,16 @@
-# Angular2FirebaseAuth
+# Angular2 Firebase Authentication Demo
+
+## App Url
+
+The application is available on firebase: https://angular2-auth.firebaseapp.com/
+
+## App screenshots
+
+<img src="https://raw.githubusercontent.com/manekinekko/angular2-firebase-authentication/master/public/angular2-firebase-authentication-wassim-chegham-1.png" width="420"/>
+<img src="https://raw.githubusercontent.com/manekinekko/angular2-firebase-authentication/master/public/angular2-firebase-authentication-wassim-chegham-2.png" width="420"/>
+
+
+## Other details
 
 This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.10.
 

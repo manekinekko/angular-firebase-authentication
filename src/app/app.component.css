@@ -16,6 +16,11 @@
   text-align: center;
 }
 
+:host md-card-title,
+:host md-card-subtitle {
+  text-align: left;
+}
+
 :host button {
   width: 350px;
   margin: 10px 0;

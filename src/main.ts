@@ -21,7 +21,6 @@ bootstrap(AppComponent, [
     storageBucket: "angular2-auth.appspot.com"
   }),
   firebaseAuthConfig({
-    provider: AuthProviders.Google,
     method: AuthMethods.Popup
   })
 ]);

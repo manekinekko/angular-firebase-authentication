@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { AngularFire, AuthProviders, AuthMethods } from 'angularfire2';
+import { AngularFire, AuthProviders } from 'angularfire2';
 import { MD_PROVIDERS } from './material.providers';
 
 @Component({

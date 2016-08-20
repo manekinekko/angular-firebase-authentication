@@ -1,13 +1,11 @@
 import { Component } from '@angular/core';
 import { AngularFire, AuthProviders } from 'angularfire2';
-import { MD_PROVIDERS } from './material.providers';
 
 @Component({
   moduleId: module.id,
   selector: 'app-root',
   templateUrl: 'app.component.html',
-  styleUrls: ['app.component.css'],
-  directives: [ MD_PROVIDERS ]
+  styleUrls: ['app.component.css']
 })
 export class AppComponent {
   isAuth = false;

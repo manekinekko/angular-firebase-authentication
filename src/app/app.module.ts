@@ -1,20 +1,12 @@
-// CORE DEPS
+// Core modules
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AngularFireModule, AuthMethods } from 'angularfire2';
 
-// MATERIAL DESIGN MODULES
-import { MdToolbarModule } from '@angular2-material/toolbar';
-import { MdButtonModule } from '@angular2-material/button';
-import { MdCardModule } from '@angular2-material/card';
+// Third party modules
+import { MdModule }  from './material.module';
 
-export let MD_MODULES: any = [
-  MdToolbarModule,
-  MdButtonModule,
-  MdCardModule
-];
-
-// APP
+// App
 import { AppComponent }  from './app.component';
 
 @NgModule({
@@ -32,7 +24,7 @@ import { AppComponent }  from './app.component';
       }
     ),
     BrowserModule,
-    ...MD_MODULES
+    ...MdModule
   ],
   declarations: [
     AppComponent

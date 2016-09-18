@@ -1,16 +1,21 @@
 /* tslint:disable:no-unused-variable */
 
-import { addProviders, async, inject } from '@angular/core/testing';
+import { TestBed, async } from '@angular/core/testing';
 import { AppComponent } from './app.component';
 
-describe('App: Angular2FirebaseAuth', () => {
+describe('App: Angular2 Firebase Authentication', () => {
   beforeEach(() => {
-    addProviders([AppComponent]);
+    TestBed.configureTestingModule({
+      declarations: [
+        AppComponent
+      ],
+    });
   });
 
-  it('should create the app',
-    inject([AppComponent], (app: AppComponent) => {
-      expect(app).toBeTruthy();
-    }));
+  it('should create the app', async(() => {
+    let fixture = TestBed.createComponent(AppComponent);
+    let app = fixture.debugElement.componentInstance;
+    expect(app).toBeTruthy();
+  }));
 
 });

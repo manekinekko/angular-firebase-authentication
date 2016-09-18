@@ -6,20 +6,22 @@ The application is available on firebase: https://angular2-auth.firebaseapp.com/
 
 ## App screenshots
 
-<img src="https://raw.githubusercontent.com/manekinekko/angular2-firebase-authentication/master/public/angular2-firebase-authentication-wassim-chegham-1.png" width="420"/>
-<img src="https://raw.githubusercontent.com/manekinekko/angular2-firebase-authentication/master/public/angular2-firebase-authentication-wassim-chegham-2.png" width="420"/>
+<img 
+src="https://raw.githubusercontent.com/manekinekko/angular2-firebase-authentication$
+<img 
+src="https://raw.githubusercontent.com/manekinekko/angular2-firebase-authentication$
 
 
 ## Other details
 
-This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.10.
+This project was generated with [angular-cli](https://github.com/angular/angular-cli) version 1.0.0-beta.14.
 
 ## Development server
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
 
 ## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/route/class`.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class`.
 
 ## Build
 
